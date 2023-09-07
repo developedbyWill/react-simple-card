@@ -1,0 +1,77 @@
+/* src/Card.css */
+.card {
+  font-family: "Space Mono", monospace;
+  display: flex;
+  border: 1px solid #4a99e9;
+  margin: 10rem auto;
+  padding: 1.25rem;
+  /* border-radius: 0.5rem; */
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 63rem;
+  width: 100%;
+  text-align: left;
+  /* align-items: center; */
+  align-items: flex-start;
+}
+
+.card-image {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  margin-right: 1.25rem;
+}
+
+.card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow: auto;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+  margin-top: -0.2rem;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: #333;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Hide any overflowing text */
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  margin-top: 0.1rem; /* Add spacing between description and info */
+}
+
+.card-separator {
+  margin: 0 0.3125rem; /* Add spacing between separator dots */
+  color: #ccc;
+  font-weight: lighter;
+}
+
+.card-time {
+  font-size: 0.875rem;
+  color: #aaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-location {
+  font-size: 0.875rem;
+  color: #aaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
