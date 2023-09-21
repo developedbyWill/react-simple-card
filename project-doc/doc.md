@@ -113,4 +113,4 @@ export default App;
 
 6. Conclusion
 
-The React Simple Card project provides a straightforward example of building a reusable card component using React. This documentation covers the project structure, component details, styling, and how to use the components in your application. Feel free to customize and expand upon this project as needed for your specific use case.
+This documentation covers the project structure, component details, styling, and how to use the components in a React application.
